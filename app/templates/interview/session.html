@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Question {{ current_number }} of {{ total_questions }} - AI Mock Interview{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 760px; margin: 1.5rem auto;">
+  
+  <!-- Progress Header -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+    <div>
+      <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary);">
+        {{ session.interview_type|capitalize }} Mock Interview
+      </span>
+      <h2 style="font-size: 1.25rem; font-weight: 700; margin-top: 0.2rem;">
+        Question {{ current_number }} of {{ total_questions }}
+      </h2>
+    </div>
+
+    <!-- Badges -->
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <span class="role-tag" style="background: #f1f5f9; color: var(--text-main);">
+        {{ question.difficulty|capitalize }}
+      </span>
+      <span class="role-tag">
+        {{ question.dimension_tag|replace('_', ' ')|capitalize }}
+      </span>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div style="width: 100%; height: 6px; background-color: var(--border-color); border-radius: 9999px; overflow: hidden; margin-bottom: 1.75rem;">
+    <div style="width: {{ (current_number / total_questions) * 100 }}%; height: 100%; background-color: var(--primary); transition: width 0.3s ease;"></div>
+  </div>
+
+  <!-- Question Prompt Box -->
+  <div style="padding: 1.5rem; background: #f8fafc; border: 1px solid var(--border-color); border-left: 4px solid var(--primary); border-radius: 6px; margin-bottom: 1.5rem;">
+    <p style="font-size: 1.15rem; font-weight: 600; line-height: 1.5; color: var(--text-main);">
+      {{ question.text }}
+    </p>
+  </div>
+
+  <!-- Answer Form -->
+  <form action="{{ url_for('interview.session_view', session_id=session.id) }}" method="POST">
+    <!-- CSRF Token and Question ID -->
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <input type="hidden" name="question_id" value="{{ question.id }}">
+
+    <div class="form-group">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+        <label for="transcript" style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0;">
+          Your Answer (Typed)
+        </label>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">
+          Max 3,000 characters
+        </span>
+      </div>
+
+      <textarea 
+        id="transcript" 
+        name="transcript" 
+        class="form-control" 
+        rows="8" 
+        maxlength="3000" 
+        required 
+        autofocus 
+        placeholder="Structure your answer clearly. Explain concepts with practical examples or relevant personal experience..."
+        style="resize: vertical; font-family: inherit; font-size: 0.95rem; line-height: 1.6;"
+      >{{ transcript or '' }}</textarea>
+    </div>
+
+    <div style="display: flex; justify-content: flex-end; align-items: center; gap: 1rem; margin-top: 1.5rem;">
+      <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.75rem;">
+        {% if current_number == total_questions %}
+          Submit & Finish Interview &rarr;
+        {% else %}
+          Submit Answer & Next &rarr;
+        {% endif %}
+      </button>
+    </div>
+  </form>
+
+</div>
+{% endblock %}

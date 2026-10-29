@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Adaptive AI Mock Interview Coach{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <nav class="navbar">
+    <a href="{{ url_for('index') }}" class="navbar-brand">
+      <span>🎯 AI Interview Coach</span>
+    </a>
+
+    <ul class="navbar-nav">
+      {% if current_user %}
+        <li class="user-badge">
+          <span>Hello, <strong>{{ current_user.name }}</strong></span>
+          <span class="role-tag">{{ current_user.role }}</span>
+        </li>
+
+        {% if current_user.role == 'student' %}
+          <li><a href="{{ url_for('interview.start_interview') }}" class="nav-link">Start Interview</a></li>
+        {% elif current_user.role == 'admin' %}
+          <li><a href="{{ url_for('admin.admin_index') }}" class="nav-link">Admin Dashboard</a></li>
+        {% endif %}
+
+        <li>
+          <!-- Logout Form: POST request with CSRF Token protection -->
+          <form action="{{ url_for('auth.logout') }}" method="POST" style="display: inline; margin: 0;">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button type="submit" class="btn btn-outline">Logout</button>
+          </form>
+        </li>
+      {% else %}
+        <li><a href="{{ url_for('auth.login') }}" class="nav-link">Log In</a></li>
+        <li><a href="{{ url_for('auth.register') }}" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">Register</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container">
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-messages">
+          {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <!-- Page Content Block -->
+    {% block content %}{% endblock %}
+  </main>
+
+</body>
+</html>
+

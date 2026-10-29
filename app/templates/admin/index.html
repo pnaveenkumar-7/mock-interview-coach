@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard - Placement Officer{% endblock %}
+
+{% block content %}
+<div class="card">
+  <h2 class="card-title">Placement Officer / Admin Dashboard</h2>
+  <p class="card-subtitle">Overview of student cohort batches and mock interview metrics.</p>
+
+  <div class="grid-2">
+    <div class="info-card">
+      <h4>🎓 Student Batches</h4>
+      <p>Manage student cohorts and track student participation across departments.</p>
+    </div>
+    <div class="info-card">
+      <h4>📈 Performance Analytics</h4>
+      <p>Analyze college-wide averages across Technical, HR, and Behavioral dimensions.</p>
+    </div>
+  </div>
+
+  <div style="margin-top: 2rem; padding: 1.25rem; background: #fafafa; border: 1px dashed var(--border-color); border-radius: 6px; text-align: center;">
+    <p style="color: var(--text-muted); font-size: 0.95rem;">
+      🔐 <strong>Admin Protected Area:</strong> Only placement officers with verified administrative roles have access to this portal.
+    </p>
+  </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Start Interview - AI Mock Interview Coach{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 600px; margin: 1.5rem auto;">
+  <h2 class="card-title">Setup Mock Interview</h2>
+  <p class="card-subtitle">Configure your mock interview session and practice with AI.</p>
+
+  <form action="{{ url_for('interview.start_interview') }}" method="POST">
+    <!-- CSRF Token -->
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <div class="form-group">
+      <label for="interview_type">Interview Type</label>
+      <select id="interview_type" name="interview_type" class="form-control">
+        <option value="technical" {% if selected_type == 'technical' %}selected{% endif %}>Technical (Programming, Data Structures, Web)</option>
+        <option value="hr" {% if selected_type == 'hr' %}selected{% endif %}>HR / General (Introduction, Strengths & Goals)</option>
+        <option value="behavioral" {% if selected_type == 'behavioral' %}selected{% endif %}>Behavioral (STAR Method, Teamwork, Challenges)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="num_questions">Number of Questions (3 to 10)</label>
+      <input type="number" id="num_questions" name="num_questions" class="form-control" min="3" max="10" value="{{ selected_num or 5 }}" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Begin Practice Session</button>
+  </form>
+
+  <div class="grid-2" style="margin-top: 2rem;">
+    <div class="info-card">
+      <h4>🎙️ Voice & Text Support</h4>
+      <p>Speak naturally via Web Speech API or type your answers if you prefer a keyboard fallback.</p>
+    </div>
+    <div class="info-card">
+      <h4>📊 5-Dimension Rubric</h4>
+      <p>Answers are graded on Relevance, Clarity, Completeness, Accuracy, and Communication.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

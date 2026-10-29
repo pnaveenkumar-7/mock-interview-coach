@@ -1,0 +1,962 @@
+[
+  {
+    "text": "Tell me about yourself and your academic background in computer applications.",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Brief personal background and education details\nHighlights of relevant coursework and core technologies learned\nKey college projects or academic achievements\nProfessional career objective aligned with the company",
+    "source": "bank"
+  },
+  {
+    "text": "Why did you choose to pursue a degree in Computer Applications (BCA)?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Early interest or passion for technology and software\nSpecific subject or experience that sparked enthusiasm\nCareer aspirations in the IT industry",
+    "source": "bank"
+  },
+  {
+    "text": "What are your greatest technical and personal strengths?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Mention 1-2 core technical skills with brief evidence\nMention 1 key interpersonal skill such as quick learning or adaptability\nSpecific example from academic coursework or group project",
+    "source": "bank"
+  },
+  {
+    "text": "What is one area of improvement or weakness you are currently working on?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Identify a genuine, non-critical weakness\nAvoid cliches like 'I am too perfectionist'\nConcrete active steps being taken to improve",
+    "source": "bank"
+  },
+  {
+    "text": "Why do you want to join our organization as a fresher software engineer?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "Awareness of the company's domain, culture, or technology stack\nAlignment with personal career growth and learning goals\nEnthusiasm to contribute meaningfully as an entry-level developer",
+    "source": "bank"
+  },
+  {
+    "text": "Where do you see yourself in your career three to five years from now?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Realistic progression toward a solid technical role\nDesire to master software architecture and development best practices\nCommitment to continuous learning and mentoring junior peers",
+    "source": "bank"
+  },
+  {
+    "text": "What hobbies or extracurricular activities do you pursue outside of academics?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Mention productive or engaging personal interests\nHow the activity fosters creativity, discipline, or problem-solving\nHealthy balance between academics and personal life",
+    "source": "bank"
+  },
+  {
+    "text": "How do you keep yourself updated with new trends and tools in technology?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Specific platforms (e.g., GitHub, tech blogs, documentation, online courses)\nRecent technological trend explored (e.g., AI tools, cloud services)\nSelf-driven curiosity to learn beyond the college syllabus",
+    "source": "bank"
+  },
+  {
+    "text": "What was your favorite subject during your BCA studies and why?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Clearly name a relevant computer science subject (e.g., DBMS, OOP)\nExplain why the subject interested you\nHow you applied the subject's concepts in a practical lab or project",
+    "source": "bank"
+  },
+  {
+    "text": "Are you comfortable working in different shifts or relocating if the project requires it?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "Direct and clear response regarding flexibility and relocation\nPositive attitude toward learning and new workplace environments\nProfessional openness to team needs and project delivery schedules",
+    "source": "bank"
+  },
+  {
+    "text": "How do you organize your daily schedule when handling multiple exam and project deadlines?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Specific prioritization strategy (e.g., urgent vs important)\nTools used (to-do lists, calendar apps, reminders)\nTechniques to avoid procrastination and burnout",
+    "source": "bank"
+  },
+  {
+    "text": "What does professional integrity and workplace ethics mean to you as a fresher?",
+    "type": "HR",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Honesty in reporting task progress and admitting mistakes\nRespecting confidential company and client data\nRespectful collaboration with diverse team members",
+    "source": "bank"
+  },
+  {
+    "text": "Describe your final year BCA project: what problem does it solve and what was your role?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Clear problem statement and target end-users\nArchitecture and tech stack utilized\nPersonal contribution and specific modules developed\nOutcome or measurable success of the application",
+    "source": "bank"
+  },
+  {
+    "text": "How do you handle constructive criticism or code review feedback from seniors?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Receptive, non-defensive mindset toward feedback\nViewing code reviews as learning opportunities to improve quality\nExample of implementing a suggested improvement",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a scenario where you had to learn an unfamiliar programming language or tool quickly.",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "The specific new tool or library required\nStep-by-step approach to self-learning (docs, tutorials, small test scripts)\nPractical outcome achieved within the project timeline",
+    "source": "bank"
+  },
+  {
+    "text": "If given a choice between finishing a task quickly or writing clean, maintainable code, which would you prioritize and why?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Nuanced understanding of project deadlines vs technical debt\nEmphasis on code readability, modularity, and maintainability\nCommunicating trade-offs transparently with team leads",
+    "source": "bank"
+  },
+  {
+    "text": "How would you handle a situation where you are stuck on a difficult bug for several hours?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Methodical debugging steps (reading logs, isolating inputs, searching docs)\nTimeboxing individual troubleshooting\nAsking senior teammates for guidance with clear context of what was tried",
+    "source": "bank"
+  },
+  {
+    "text": "What qualities do you think differentiate an average developer from an exceptional developer?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Strong fundamental problem-solving and curiosity\nCommitment to writing clean, well-tested code\nEffective communication, empathy, and willingness to help others",
+    "source": "bank"
+  },
+  {
+    "text": "If a team member was not contributing their fair share to a college project, how did you handle it?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Direct, polite private conversation to understand their challenges\nRe-aligning task distribution according to strengths\nEscalating professionally to faculty only after constructive attempts failed",
+    "source": "bank"
+  },
+  {
+    "text": "How do you evaluate whether a software project you built was successful?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Whether user requirements and key functional goals were met\nCode quality, absence of critical bugs, and system performance\nPositive user feedback or successful project viva presentation",
+    "source": "bank"
+  },
+  {
+    "text": "What would you do if you were assigned a legacy project with poor documentation and outdated libraries?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Patience and structured exploration of the codebase\nTracing execution flows and creating updated documentation/diagrams\nProposing incremental refactoring and modernization safely",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time you had to present a complex technical topic to a non-technical audience.",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Topic chosen and audience context\nAvoiding jargon and using relatable real-world analogies\nChecking for audience understanding and answering questions clearly",
+    "source": "bank"
+  },
+  {
+    "text": "What salary expectations do you have as a graduate fresher joining our engineering team?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Awareness of industry standards for BCA freshers\nEmphasis on learning opportunity, skill growth, and mentorship\nFlexibility aligned with company policy and compensation bands",
+    "source": "bank"
+  },
+  {
+    "text": "How do you ensure you stay motivated when performing repetitive or routine tasks?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Recognizing the importance of routine maintenance to overall project health\nLooking for automation opportunities (scripts, templates)\nSetting personal efficiency goals",
+    "source": "bank"
+  },
+  {
+    "text": "How would you respond if your manager asked you to deliver a feature by a deadline you know is unrealistic?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Calm and respectful communication backed by fact-based estimates\nBreaking down the tasks to show where time is required\nProposing viable options: reduce scope for MVP or adjust timeline",
+    "source": "bank"
+  },
+  {
+    "text": "What values are most important to you in a team culture and work environment?",
+    "type": "HR",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Psychological safety to ask questions and admit mistakes\nOpen communication, knowledge sharing, and peer reviews\nRecognition of hard work and commitment to quality",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a situation where you strongly disagreed with a team decision or faculty feedback. How did you handle it?",
+    "type": "HR",
+    "difficulty": "hard",
+    "dimension_tag": "clarity",
+    "ideal_points": "Professional and respectful disagreement supported by logical reasoning\nListening empathetically to the other perspective\nAccepting and committing fully to the final consensus once decided",
+    "source": "bank"
+  },
+  {
+    "text": "If you discovered a critical security vulnerability or data leak in a project days before the final deadline, what would you do?",
+    "type": "HR",
+    "difficulty": "hard",
+    "dimension_tag": "completeness",
+    "ideal_points": "Immediate responsible disclosure to project lead or faculty\nAssessing impact and isolating the vulnerable component\nWorking on an immediate patch while communicating realistic status",
+    "source": "bank"
+  },
+  {
+    "text": "Why should we hire you over other qualified candidates who might have higher academic percentages or certifications?",
+    "type": "HR",
+    "difficulty": "hard",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Emphasis on practical hands-on coding and project building experience\nStrong learning agility and dedication to solving real problems\nGood communication skills, positive attitude, and eagerness to contribute",
+    "source": "bank"
+  },
+  {
+    "text": "How would you handle a professional situation where you made a mistake that caused downtime or failed a project milestone?",
+    "type": "HR",
+    "difficulty": "hard",
+    "dimension_tag": "communication",
+    "ideal_points": "Immediate ownership without blaming others or hiding the error\nFocus on rapid mitigation and recovery first\nConducting a blameless post-mortem to ensure prevention in the future",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you worked in a group to complete an academic presentation or lab assignment. What was your contribution?",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Situation and goal of the group assignment\nSpecific role assumed and individual tasks completed\nCollaborative interactions with teammates\nSuccessful final outcome or score achieved",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time you helped a classmate who was struggling to understand a coding concept.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Concept the peer found difficult (e.g., recursion, SQL joins)\nExplanation technique tailored to their learning pace\nPatience and practical code walkthrough\nPeer's successful understanding and application",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a situation where you had to adapt quickly to a sudden change in project requirements.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Context of the change (new feature request, revised tech stack)\nFlexible, non-frustrated reaction to change\nSteps taken to adjust code and plan\nDelivery of the updated project on time",
+    "source": "bank"
+  },
+  {
+    "text": "Can you give an example of an ambitious academic or coding goal you set for yourself and achieved?",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Clear definition of the goal (e.g., mastering data structures, building a full app)\nMeasurable milestone roadmap\nDiscipline and dedication demonstrated\nResult and lessons learned",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you received negative feedback on an assignment. How did you respond?",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "The specific criticism given by the evaluator\nReflective, objective attitude rather than emotional reaction\nActions taken to revise the work or improve future submissions\nImproved performance on subsequent evaluations",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a situation where you had to balance heavy exam preparation with a project deadline.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "The conflicting time commitments faced\nSpecific planning, scheduling, or prioritization framework used\nDisciplined execution under pressure\nPositive academic and project results achieved",
+    "source": "bank"
+  },
+  {
+    "text": "Share an experience where you had to read documentation to solve a problem without any online tutorials available.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "The technical obstacle or library lacking simple tutorials\nMethodical reading of official docs and API signatures\nExperimentation using small test scripts\nSuccessful resolution and increased self-reliance",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you demonstrated leadership during your college studies or extracurriculars.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Initiative taken to organize an event, study group, or hackathon team\nMotivating others and assigning roles based on skills\nNavigating unexpected obstacles smoothly\nPositive feedback and outcome of the initiative",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a project where you noticed an error before submission and corrected it just in time.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "How the bug or oversight was identified through thorough verification\nImmediate composed troubleshooting under time constraints\nRoot-cause correction and testing\nFlawless final delivery",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you had to learn a concept outside your regular BCA curriculum on your own.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "The concept chosen (e.g., Git version control, Docker basics, REST APIs)\nSelf-guided resources used\nBuilding a sample demo to solidify knowledge\nApplying the skill in your project work",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you had to follow strict guidelines or coding standards you did not personally prefer.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "The guidelines in place (formatting rules, specific naming conventions)\nUnderstanding the broader value of consistency and team standards\nComplying diligently with the required style\nAppreciating readability and maintainability benefits",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you took the initiative to improve something that was not explicitly assigned to you.",
+    "type": "behavioral",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Observation of an inefficient process or missing feature\nProactive planning and implementation during extra time\nRespectful sharing of the improvement with peers/faculty\nAppreciation or measurable benefit generated",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a significant failure or setback you experienced during a project. What happened and what did you learn?",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Clear context and honest description of what went wrong\nTaking personal accountability for the shortcoming\nCorrective measures implemented to recover\nKey takeaway that improved your engineering habits",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time there was interpersonal conflict within your project team. How did you resolve it?",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Root cause of the conflict or differing opinions\nEmpathetic, calm listening to all viewpoints\nFocusing the discussion on project goals rather than personal egos\nArriving at a mutually agreed-upon win-win resolution",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you had to debug an intermittent, hard-to-reproduce software defect.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Symptoms of the intermittent defect and why it was elusive\nSystematic logging, state inspection, and testing edge cases\nIdentifying root cause (e.g., race condition, null check, type mismatch)\nApplying a permanent fix and verifying with regression tests",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you were overwhelmed by multiple conflicting priorities. How did you handle it?",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Multiple high-stakes deadlines occurring simultaneously\nStep-by-step breakdown and prioritization matrix\nCommunicating proactively with professors or team members\nExecuting with focus and delivering without compromising quality",
+    "source": "bank"
+  },
+  {
+    "text": "Describe an occasion where you convinced your team to adopt an alternative technical approach or library.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "The initial proposal vs your alternative suggestion\nObjective evidence, benchmarks, or prototypes provided to demonstrate benefits\nRespectful persuasion without confrontation\nPositive team consensus and project improvement",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a project where you had to compromise on features due to tight deadlines. How did you decide what to cut?",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Timeline constraints threatening project delivery\nCategorizing features into core MVP vs nice-to-have enhancements\nConsulting project stakeholders or guides for alignment\nDelivering a stable, polished core product on schedule",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you had to work with someone whose working style or personality was very different from yours.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Acknowledging and respecting differing communication/working habits\nEstablishing clear boundaries, interfaces, and deliverables\nFocusing on shared goals and professional empathy\nAchieving a successful collaborative project",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time you noticed an ethical concern or dishonest practice in an academic or team setting. What did you do?",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Situation involving plagiarism or unethical short-cuts\nStanding firm on personal integrity and professional standards\nAddressing the issue tactfully with the individual\nProtecting the integrity and reputation of the project work",
+    "source": "bank"
+  },
+  {
+    "text": "Give an example of a situation where you had to deliver a task with ambiguous or incomplete specifications.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Recognizing ambiguities in requirements\nAsking targeted clarifying questions instead of making blind assumptions\nDocumenting assumptions and creating a prototype\nIterating with the guide to ensure final alignment",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time you had to optimize the performance of a slow program or database query.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Symptoms of the performance bottleneck\nProfiling tools, query plans, or algorithmic analysis used\nConcrete optimization applied (indexing, reducing complexity, caching)\nMeasurable speedup or efficiency gain recorded",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a situation where you anticipated a potential problem before it occurred and took preventative action.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Identifying an upcoming risk (e.g., API rate limit, database scale, deadline crunch)\nFormulating a proactive mitigation strategy\nImplementing preventative guards (fallback mode, input validation)\nAvoiding potential failure or panic later",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about an experience where you had to explain a complex technical bug to an upset or impatient stakeholder.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Empathizing with their frustration and maintaining a calm tone\nTranslating the issue into plain business or user impact\nPresenting clear next steps and an accurate resolution ETA\nSuccessfully fixing the issue and rebuilding trust",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you received contradictory instructions from two different project mentors or faculty members.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Identifying the contradiction respectfully without blaming either party\nGathering the requirements and documenting both points of view\nFacilitating a brief joint clarification or seeking a unified decision\nProceeding with clarity and confidence",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when you had to work under intense pressure during a live project demonstration or hackathon.",
+    "type": "behavioral",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Context of high pressure and impending presentation\nMaintaining mental composure and focusing on critical path items\nCoordinating closely with teammates under time constraints\nDelivering a successful live demonstration",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a time when a project you poured significant effort into was canceled or required a complete rebuild. How did you cope?",
+    "type": "behavioral",
+    "difficulty": "hard",
+    "dimension_tag": "clarity",
+    "ideal_points": "Context of why the project pivot or rebuild became necessary\nManaging emotional disappointment constructively\nExtracting reusable modules, lessons, and architectural knowledge\nChannelling energy into the new direction successfully",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a scenario where you had to step in and take ownership of a failing project with very little time remaining.",
+    "type": "behavioral",
+    "difficulty": "hard",
+    "dimension_tag": "completeness",
+    "ideal_points": "Triage of the broken state and realistic assessment of capabilities\nDecisive leadership and restructuring of essential deliverables\nRallying team morale and executing focused sprint\nPulling off a viable, functional submission on time",
+    "source": "bank"
+  },
+  {
+    "text": "Tell me about a situation where you discovered that code written by a senior peer or teammate contained a major flaw.",
+    "type": "behavioral",
+    "difficulty": "hard",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Verifying the flaw thoroughly with test cases before speaking up\nApproaching the peer privately with humility and evidence\nFocusing on protecting the codebase rather than pointing fingers\nCollaborating on a fix smoothly without bruised egos",
+    "source": "bank"
+  },
+  {
+    "text": "Describe a time when you had to make an architectural or design decision with no clear right answer. How did you choose?",
+    "type": "behavioral",
+    "difficulty": "hard",
+    "dimension_tag": "communication",
+    "ideal_points": "The trade-offs involved between the competing design choices\nCriteria used for evaluation (scalability, complexity, maintainability)\nBuilding small proof-of-concepts to test hypotheses\nDocumenting rationale and proceeding decisively",
+    "source": "bank"
+  },
+  {
+    "text": "What are the primary differences between Python lists and Python tuples?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Lists are mutable whereas tuples are immutable\nSyntax differences: square brackets [] vs parentheses ()\nTuples have lower memory overhead and can be used as dictionary keys\nCommon use cases for each data type",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the concept of mutability in Python with examples of mutable and immutable data types.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Definition of mutability (in-place modification vs creating new object)\nExamples of mutable types: list, dict, set\nExamples of immutable types: int, float, str, tuple\nBehavior when passing mutable objects to functions",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between shallow copy and deep copy in Python?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Shallow copy creates a new compound object but inserts references to inner objects\nDeep copy recursively clones all nested objects\nModule used: copy.copy() vs copy.deepcopy()\nPotential side-effects when modifying nested structures",
+    "source": "bank"
+  },
+  {
+    "text": "What are the four fundamental pillars of Object-Oriented Programming? Briefly explain each.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Encapsulation: bundling data and methods, hiding internal state\nAbstraction: exposing essential features while hiding complexity\nInheritance: acquiring properties and behavior from a parent class\nPolymorphism: ability of entities to take on multiple forms (overloading/overriding)",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between method overloading and method overriding in Java/OOP?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "Overloading occurs in the same class with same name but different parameter signatures (compile-time)\nOverriding occurs across parent and child classes with identical signatures (runtime)\nReturn type rules and use of @Override annotation in Java\nPractical real-world examples of both",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between an abstract class and an interface in Java?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Abstract classes can have instance variables and state, interfaces cannot\nSingle inheritance for classes vs multiple inheritance for interfaces\nAbstract classes can have constructor and non-abstract methods\nDesign intent: 'is-a' relationship vs 'can-do' contract",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between WHERE and HAVING clauses in SQL?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "WHERE filters rows before any groupings are applied\nHAVING filters aggregated groups after GROUP BY executes\nAggregate functions (SUM, COUNT, AVG) can be used in HAVING but not in WHERE\nStandard execution order in SQL query processing",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the difference between Primary Key, Unique Key, and Foreign Key in relational databases.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Primary Key uniquely identifies a record and cannot accept NULL values (only one per table)\nUnique Key enforces uniqueness but permits NULL values (multiple allowed per table)\nForeign Key establishes referential integrity by referencing another table's primary key\nPurpose of indexing and constraints in relational design",
+    "source": "bank"
+  },
+  {
+    "text": "What are the common types of SQL JOINs and what does each return?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "INNER JOIN: matching records in both tables\nLEFT JOIN: all rows from left table and matched rows from right\nRIGHT JOIN: all rows from right table and matched rows from left\nFULL OUTER JOIN: all rows when there is a match in either table",
+    "source": "bank"
+  },
+  {
+    "text": "What happens in the browser when you type a URL like https://www.google.com and press Enter?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "DNS resolution converts domain name into target IP address\nTCP three-way handshake and TLS/SSL certificate negotiation\nBrowser sends HTTP GET request to web server\nServer returns HTTP response with HTML/CSS/JS which browser parses and renders",
+    "source": "bank"
+  },
+  {
+    "text": "What are the main differences between HTTP GET and HTTP POST requests?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "GET passes parameters in URL query string; POST passes data in request body\nGET is idempotent and safe for retrieval; POST modifies state on server\nCaching and bookmarking behaviors (GET can be cached, POST is not cached)\nSecurity: GET exposes parameters in browser history and server logs",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the role of HTML, CSS, and JavaScript in building modern web applications.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "HTML provides structure, semantic elements, and content\nCSS controls layout, visual presentation, colors, and responsive design\nJavaScript adds interactivity, dynamic DOM manipulation, and asynchronous operations\nSeparation of concerns between structure, style, and behavior",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between an Array and a Linked List in memory and access speed?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Arrays store elements in contiguous memory; Linked Lists use scattered nodes with pointers\nArrays provide O(1) random index access; Linked Lists require O(n) sequential traversal\nInsertions/deletions at beginning are O(n) for arrays vs O(1) for linked lists\nMemory overhead of storing pointer references in linked list nodes",
+    "source": "bank"
+  },
+  {
+    "text": "What is a Stack, what principle does it follow, and what are two real-world applications of it?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "LIFO (Last In, First Out) principle with push and pop operations\nFunction call stack and recursion tracking in memory\nUndo/redo functionality in text editors\nBrowser forward and back history navigation",
+    "source": "bank"
+  },
+  {
+    "text": "What is a Queue, what principle does it follow, and how does it differ from a Stack?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "FIFO (First In, First Out) principle with enqueue and dequeue operations\nStack operates on one end (top); Queue operates on two ends (front and rear)\nReal-world applications: CPU task scheduling, print job queues, breadcrumb search\nTime complexity of operations: O(1) for enqueue and dequeue",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between a Process and a Thread in an operating system?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "A process is an executing program with isolated address space; a thread is a lightweight unit within a process\nThreads within the same process share code, data, and open files\nContext switching overhead is higher between processes than between threads\nFailure in one process does not crash other processes; crashed thread can crash parent process",
+    "source": "bank"
+  },
+  {
+    "text": "What is Deadlock in operating systems and what are the four Coffman conditions required for it?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Deadlock is a state where processes are blocked waiting for resources held by each other\nMutual Exclusion: non-shareable resources\nHold and Wait: holding resources while waiting for more\nNo Preemption: resources cannot be forcibly seized\nCircular Wait: closed chain of processes waiting on each other",
+    "source": "bank"
+  },
+  {
+    "text": "Explain what Virtual Memory is and why modern operating systems use paging.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Abstraction allowing execution of processes larger than physical RAM\nDivides memory into fixed-size pages and physical RAM into page frames\nTranslates virtual addresses to physical addresses via page tables\nProtection, isolation, and handling page faults via swap space on disk",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between TCP and UDP protocols? Give an example of where each is used.",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "TCP is connection-oriented and reliable with error checking and packet reordering\nUDP is connectionless, lightweight, and does not guarantee packet delivery\nTCP overhead is higher due to 3-way handshake and acknowledgments\nTCP used in HTTP, email (SMTP), file transfer (FTP); UDP in live video streaming, DNS, online gaming",
+    "source": "bank"
+  },
+  {
+    "text": "What is the OSI model and what are its seven layers in order?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "communication",
+    "ideal_points": "Conceptual framework standardizing network communication into 7 distinct layers\nPhysical, Data Link, Network, Transport, Session, Presentation, Application\nRole of Transport layer (TCP/UDP) and Network layer (IP routing)\nEncapsulation and decapsulation as data travels down and up the stack",
+    "source": "bank"
+  },
+  {
+    "text": "What is the Software Development Life Cycle (SDLC) and what are its key phases?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "relevance",
+    "ideal_points": "Structured framework for delivering high-quality software\nPhases: Requirements Gathering, System Design, Implementation/Coding, Testing, Deployment, Maintenance\nSignificance of testing before production deployment\nEnsures budget, timeline, and client satisfaction goals are met",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between the traditional Waterfall model and the modern Agile methodology?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "clarity",
+    "ideal_points": "Waterfall is sequential and rigid; Agile is iterative, flexible, and adaptive\nWaterfall gathers all requirements upfront; Agile accommodates changing requirements\nAgile delivers working software in short sprints (1-3 weeks)\nCustomer collaboration and continuous feedback loop in Agile",
+    "source": "bank"
+  },
+  {
+    "text": "What is Git and what are the purposes of git clone, git commit, and git push?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "completeness",
+    "ideal_points": "Git is a distributed version control system for tracking source code history\ngit clone copies a remote repository to your local machine\ngit commit saves staged code snapshots locally with a descriptive message\ngit push uploads local commits to a remote repository like GitHub",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between Unit Testing and Integration Testing in software engineering?",
+    "type": "technical",
+    "difficulty": "easy",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Unit testing verifies individual components or functions in isolation\nIntegration testing verifies interactions and data flow between connected modules\nUnit tests are fast and use mocks; integration tests test combined subsystems\nBoth are essential parts of continuous integration pipelines",
+    "source": "bank"
+  },
+  {
+    "text": "How does Python handle memory management and what is the role of the Garbage Collector?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Private heap space managed by Python memory manager\nReference counting mechanism as the primary deletion trigger\nCyclic garbage collector (generational GC) for cyclic references\nUse of sys.getrefcount() and the gc module",
+    "source": "bank"
+  },
+  {
+    "text": "What are Python decorators, how do they work behind the scenes, and what is a common practical use?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Higher-order functions that take a function as input and return a modified wrapper\nFunctions are first-class citizens in Python\nSyntax sugar @decorator is equivalent to func = decorator(func)\nCommon uses: authentication checks, logging, timing execution, memoization",
+    "source": "bank"
+  },
+  {
+    "text": "Explain Python generators, the yield keyword, and how they save memory compared to list comprehensions.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Generators produce items lazily one at a time using the yield keyword\nMaintain state between successive calls using next()\nList comprehensions load all items into memory at once; generators use O(1) memory\nIdeal for streaming large files or infinite sequences",
+    "source": "bank"
+  },
+  {
+    "text": "What is the Global Interpreter Lock (GIL) in CPython and how does it affect CPU-bound multithreading?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Mutex that prevents multiple native threads from executing Python bytecode simultaneously\nDesigned to make memory management thread-safe in CPython\nCPU-bound tasks do not achieve true multi-core speedup with threading\nAlternatives for parallel compute: multiprocessing, C extensions, asyncio for I/O",
+    "source": "bank"
+  },
+  {
+    "text": "How does Java memory management work? Explain the difference between Stack and Heap memory.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Stack stores primitive variables and references to objects, allocated per thread\nHeap stores actual instantiated objects and is shared across all threads\nStack memory is fast and automatically cleaned up when method returns\nHeap memory is cleaned up asynchronously by the Java Garbage Collector (JVM)",
+    "source": "bank"
+  },
+  {
+    "text": "Explain Exception Handling in Java/Python. What is the purpose of the finally/else block?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "try blocks enclose code that might raise exceptions; catch/except handles them\nfinally block always executes regardless of whether an exception occurred or was handled\nCommon use of finally: releasing resources (closing files, database connections)\nDifference between checked and unchecked exceptions in Java",
+    "source": "bank"
+  },
+  {
+    "text": "What is the Diamond Problem in multiple inheritance and how do Java and Python address it?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Ambiguity when a child class inherits from two parent classes that both derive from a single superclass\nJava avoids it by disallowing multiple class inheritance and using interfaces\nPython uses C3 Method Resolution Order (MRO) accessible via className.__mro__\nEnsures predictable and deterministic method lookup hierarchy",
+    "source": "bank"
+  },
+  {
+    "text": "What are ACID properties in database transaction management? Explain each letter.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Atomicity: all operations succeed or entire transaction is rolled back (all-or-nothing)\nConsistency: database remains in a valid state adhering to constraints before and after\nIsolation: concurrent transactions execute without interfering with each other\nDurability: committed changes are permanently recorded even in event of a crash",
+    "source": "bank"
+  },
+  {
+    "text": "What is Database Normalization and what are the requirements for 1NF, 2NF, and 3NF?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Process of organizing tables to eliminate data redundancy and anomalies\n1NF: atomic (indivisible) column values, unique primary key, no repeating groups\n2NF: in 1NF and no partial dependencies (non-key attributes depend on whole primary key)\n3NF: in 2NF and no transitive dependencies (non-key attributes do not depend on other non-key attributes)",
+    "source": "bank"
+  },
+  {
+    "text": "What is an index in a database, how does it accelerate SELECT queries, and what is the trade-off?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Data structure (typically B-Tree) pointing to table rows for rapid search\nReduces search time from O(n) table scans to O(log n) lookups\nTrade-off: requires additional disk storage\nSlows down write operations (INSERT, UPDATE, DELETE) because indexes must be updated",
+    "source": "bank"
+  },
+  {
+    "text": "What is SQL Injection, how can it compromise an application, and how do you prevent it?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Attacker injects malicious SQL via user inputs to alter query execution\nCan leak sensitive data, bypass authentication, or drop database tables\nPrevention: parameterized queries / prepared statements (never string concatenation)\nUse of modern ORMs (like SQLAlchemy or Hibernate) and input validation",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the concept of RESTful APIs and what makes a web service truly RESTful.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Stateless client-server architecture where each request contains all necessary context\nResource-oriented URLs using nouns (e.g., /api/users, /api/interviews)\nStandard HTTP verbs for CRUD actions: GET, POST, PUT/PATCH, DELETE\nStandard HTTP status codes and JSON/XML representations",
+    "source": "bank"
+  },
+  {
+    "text": "What is the Document Object Model (DOM) and how does JavaScript manipulate DOM elements dynamically?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Hierarchical tree representation of the HTML document created by the browser\nJavaScript selects elements using methods like getElementById and querySelector\nModifying content (textContent, innerHTML), styles, attributes, and classes\nEvent listeners (addEventListener) for interactive user actions like clicks and inputs",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between Synchronous and Asynchronous JavaScript execution?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Synchronous code blocks the single main thread until task finishes\nAsynchronous code delegates long tasks (HTTP requests, timers) to browser APIs\nJavaScript Event Loop, Callback Queue, and Microtask Queue\nModern asynchronous patterns: Promises, async, and await",
+    "source": "bank"
+  },
+  {
+    "text": "Explain Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF). How do they differ?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "XSS injects malicious client-side JavaScript into trusted web pages\nCSRF tricks an authenticated user's browser into sending unwanted HTTP requests\nXSS exploits trust user has in web site; CSRF exploits trust site has in user's browser\nDefenses: input sanitization/CSP for XSS; anti-CSRF tokens and SameSite cookies for CSRF",
+    "source": "bank"
+  },
+  {
+    "text": "What is a Binary Search Tree (BST) and what are its search, insertion, and deletion time complexities?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Binary tree where left subtree < node and right subtree > node\nAverage case time complexity for search, insert, delete: O(log n)\nWorst case time complexity when skewed/unbalanced: O(n)\nImportance of balanced self-adjusting trees (AVL, Red-Black trees)",
+    "source": "bank"
+  },
+  {
+    "text": "Explain how a Hash Table works, what a hash collision is, and how collisions are resolved.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Hash function converts key into array bucket index providing average O(1) lookups\nCollision occurs when two distinct keys generate the identical hash index\nChaining technique: storing colliding elements in linked lists at that bucket\nOpen addressing technique: linear probing, quadratic probing, or double hashing",
+    "source": "bank"
+  },
+  {
+    "text": "Compare Bubble Sort, Merge Sort, and Quick Sort in terms of algorithmic time complexity and stability.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "Bubble sort: O(n^2) worst/average, stable, in-place\nMerge sort: O(n log n) in all cases, stable, requires O(n) auxiliary memory\nQuick sort: O(n log n) average, O(n^2) worst case, unstable, in-place\nDivide-and-conquer strategy used in Merge and Quick sort",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between BFS (Breadth-First Search) and DFS (Depth-First Search) graph traversals?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "BFS explores level by level using a Queue; DFS explores branch by branch using a Stack/recursion\nBFS finds the shortest path in unweighted graphs; DFS is useful for cycle detection, topological sort\nTime complexity for both: O(V + E) where V is vertices and E is edges\nSpace complexity comparison based on graph width vs depth",
+    "source": "bank"
+  },
+  {
+    "text": "What is CPU Scheduling in operating systems? Explain Round Robin vs Shortest Job First (SJF).",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Mechanism to allocate CPU time to ready processes efficiently\nRound Robin: preemptive scheduling using a fixed time quantum, fair, prevents starvation\nSJF: schedules process with smallest burst time, optimal average waiting time\nRisk of starvation for long processes in SJF and overhead of time quantum tuning in RR",
+    "source": "bank"
+  },
+  {
+    "text": "What is Paging in OS and what causes a Page Fault? How does the operating system handle it?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "Page fault occurs when process accesses a virtual page not currently resident in physical RAM\nHardware raises an interrupt/trap to the OS kernel\nOS locates required page in secondary storage (swap file/disk)\nOS reads page into an available frame, updates page table, and restarts the instruction",
+    "source": "bank"
+  },
+  {
+    "text": "What is the Domain Name System (DNS) and how does it resolve human-readable domains into IP addresses?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Decentralized naming system translating domain names (e.g., example.com) to IP addresses\nLookup hierarchy: browser cache -> OS cache -> recursive resolver (ISP)\nRoot name servers -> TLD (.com) servers -> Authoritative name servers\nDNS records: A, AAAA, CNAME, MX, and TTL caching mechanism",
+    "source": "bank"
+  },
+  {
+    "text": "Explain what a Subnet Mask and IP address classes are in computer networks.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "clarity",
+    "ideal_points": "IP address (IPv4) consists of Network ID and Host ID across 32 bits\nSubnet mask distinguishes the network portion from host portion using bitwise AND\nOriginal classful addressing: Class A, B, C for networks, D for multicast\nModern CIDR (Classless Inter-Domain Routing) notation like /24 for flexible subnetting",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between Symmetric and Asymmetric Encryption? Give examples of where each is used.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "completeness",
+    "ideal_points": "Symmetric encryption uses a single shared secret key for encryption and decryption (AES, DES)\nAsymmetric encryption uses a public-private key pair (RSA, ECC)\nSymmetric is computationally faster; asymmetric solves key exchange problems\nTLS/HTTPS uses asymmetric for initial handshake/key exchange and symmetric for session data",
+    "source": "bank"
+  },
+  {
+    "text": "What are Design Patterns in software engineering? Explain the Singleton and Factory patterns.",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Reusable solutions to commonly occurring software architecture problems\nSingleton pattern ensures a class has only one instance and provides global access point (DB connection pool)\nFactory pattern defines interface for creating objects without specifying exact concrete class\nBenefits: decoupled code, testability, and standard naming vocabulary",
+    "source": "bank"
+  },
+  {
+    "text": "What is Continuous Integration and Continuous Deployment (CI/CD) in modern software engineering?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "communication",
+    "ideal_points": "CI automatically builds and runs automated test suites upon every code commit\nCD automatically deploys validated code changes to staging or production environments\nTools: GitHub Actions, Jenkins, GitLab CI\nBenefits: early bug detection, faster release cycles, reduced manual deployment errors",
+    "source": "bank"
+  },
+  {
+    "text": "What is the MVC (Model-View-Controller) architectural pattern and how does it separate concerns in a web app?",
+    "type": "technical",
+    "difficulty": "medium",
+    "dimension_tag": "relevance",
+    "ideal_points": "Model manages database operations, data schemas, and business rules\nView handles UI layout, rendering HTML/CSS, and user presentation\nController handles incoming HTTP requests, processes logic via Model, and renders View\nDecoupling allows frontend and backend developers to work independently",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the internals of how a Hash Map operates in Java or Python. What happens during resizing/rehashing?",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "clarity",
+    "ideal_points": "Initial bucket capacity and load factor threshold (e.g., 0.75 in Java)\nWhen element count exceeds threshold, capacity doubles\nRehashing recalculates bucket indexes for all existing entries into the new array\nJava 8+ treeifies linked lists into Red-Black trees when bucket chain length exceeds 8",
+    "source": "bank"
+  },
+  {
+    "text": "What is Database Sharding vs Database Replication? What are the architectural trade-offs of each?",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "completeness",
+    "ideal_points": "Replication copies identical data across read-replicas for high availability and read scaling\nSharding horizontally partitions data rows across multiple database servers based on shard key\nTrade-offs: Replication introduces replication lag and eventual consistency issues\nSharding introduces complexity with cross-shard joins, distributed transactions, and rebalancing",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the difference between Optimistic and Pessimistic concurrency control in database transactions.",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Pessimistic locking locks rows on read, preventing other transactions from writing (SELECT FOR UPDATE)\nOptimistic locking allows concurrent reads and writes, checking version/timestamp on commit\nPessimistic is suited for high-contention write-heavy scenarios\nOptimistic is suited for low-contention environments and avoids lock contention overhead",
+    "source": "bank"
+  },
+  {
+    "text": "How does HTTPS establish a secure connection? Walk through the TLS Handshake step by step.",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "communication",
+    "ideal_points": "ClientHello: client sends supported cipher suites and random byte string\nServerHello: server responds with chosen cipher suite, server random, and SSL certificate\nClient validates certificate against trusted Certificate Authorities (CAs)\nKey exchange creates master secret to derive symmetric session keys for encrypted data",
+    "source": "bank"
+  },
+  {
+    "text": "Explain the CAP theorem in distributed systems and why a distributed system can only guarantee two of the three.",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "relevance",
+    "ideal_points": "Consistency: all nodes see the same data at the same time\nAvailability: every request receives a non-error response without guarantee of latest data\nPartition Tolerance: system continues operating despite dropped network messages between nodes\nNetwork partitions are inevitable, forcing a choice between CP (Consistency) or AP (Availability)",
+    "source": "bank"
+  },
+  {
+    "text": "What are Race Conditions and how do you prevent them in multi-threaded software systems?",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "clarity",
+    "ideal_points": "Occurs when multiple threads access shared mutable data concurrently and outcome depends on execution timing\nCritical section definition and mutual exclusion\nSynchronization primitives: Mutex, Semaphores, Locks, and Atomic variables\nDeadlock risks when using multiple locks and lock-free programming concepts",
+    "source": "bank"
+  },
+  {
+    "text": "What is the difference between Monolithic and Microservices architectures? When would a team choose one over the other?",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "completeness",
+    "ideal_points": "Monolith packages entire codebase into single deployable unit; simple deployment and debugging\nMicroservices break application into autonomous services communicating over network APIs\nMicroservices offer independent scaling, technology diversity, and fault isolation\nMicroservices introduce distributed system complexity, latency, network failures, and deployment overhead",
+    "source": "bank"
+  },
+  {
+    "text": "Explain how Memory Leaks can occur in garbage-collected languages like Python or Java and how to diagnose them.",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "technical_accuracy",
+    "ideal_points": "Garbage collector only frees objects with zero active references\nUnintentional references: static collections, unclosed event listeners, unclosed resources, cache maps\nDiagnosing via heap dumps, memory profilers (e.g., VisualVM, tracemalloc, objgraph)\nWeak references (WeakKeyDictionary, WeakReference) to avoid holding objects in memory",
+    "source": "bank"
+  },
+  {
+    "text": "How does Database Connection Pooling work and why is it critical for high-concurrency web servers?",
+    "type": "technical",
+    "difficulty": "hard",
+    "dimension_tag": "communication",
+    "ideal_points": "Opening and closing TCP database connections requires expensive handshakes and authentication\nConnection pool maintains a cache of pre-established, reusable database connections\nRequests borrow connection from pool and return it upon query completion\nPrevents database server exhaustion, connection storms, and enforces maximum active client limits",
+    "source": "bank"
+  }
+]

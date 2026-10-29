@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Student Registration - AI Mock Interview Coach{% endblock %}
+
+{% block content %}
+<div class="card auth-card">
+  <h2 class="card-title">Student Registration</h2>
+  <p class="card-subtitle">Create your account to start AI mock interviews</p>
+
+  <form action="{{ url_for('auth.register') }}" method="POST">
+    <!-- CSRF Token -->
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" class="form-control" value="{{ name or '' }}" required autofocus placeholder="John Doe">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" class="form-control" value="{{ email or '' }}" required placeholder="john@example.com">
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password (at least 8 characters)</label>
+      <input type="password" id="password" name="password" class="form-control" minlength="8" required placeholder="••••••••">
+    </div>
+
+    <div class="form-group">
+      <label for="confirm_password">Confirm Password</label>
+      <input type="password" id="confirm_password" name="confirm_password" class="form-control" minlength="8" required placeholder="••••••••">
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Create Student Account</button>
+  </form>
+
+  <div class="auth-footer">
+    Already have an account? <a href="{{ url_for('auth.login') }}">Log in</a>
+  </div>
+</div>
+{% endblock %}
+
