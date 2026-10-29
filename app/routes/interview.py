@@ -137,21 +137,62 @@ def session_view(session_id):
                 transcript=transcript
             )
 
-        # Save student's typed answer
-        now = utc_now()
+        # Validate input method ("voice" or "typed")
+        raw_method = request.form.get("input_method", "typed").strip().lower()
+        input_method = "voice" if raw_method == "voice" else "typed"
+
+        # Timing validation: speech_duration_ms between 0 and 600,000 ms (10 minutes)
+        raw_duration = request.form.get("speech_duration_ms")
+        duration_ms = None
+        if raw_duration is not None:
+            try:
+                parsed_val = int(raw_duration)
+                if 0 <= parsed_val <= 600000:
+                    duration_ms = parsed_val
+            except (ValueError, TypeError):
+                duration_ms = None
+
+        server_end_time = utc_now()
+        if duration_ms is not None and duration_ms > 0:
+            from datetime import timedelta
+            server_start_time = server_end_time - timedelta(milliseconds=duration_ms)
+        else:
+            server_start_time = server_end_time
+
+        # Validate long_pause_count (integer from 0 to 100)
+        raw_pauses = request.form.get("long_pause_count")
+        pause_count = 0
+        if raw_pauses is not None:
+            try:
+                parsed_pauses = int(raw_pauses)
+                if 0 <= parsed_pauses <= 100:
+                    pause_count = parsed_pauses
+            except (ValueError, TypeError):
+                pause_count = 0
+
+        # Calculate estimated words per minute if speech duration is available
+        words_count = len(transcript.split())
+        wpm = None
+        if duration_ms and duration_ms >= 3000:
+            wpm = round((words_count / (duration_ms / 60000.0)), 1)
+
+        # Save student's answer
         answer = Answer(
             session_id=session_id,
             question_id=current_q_id,
             transcript=transcript,
-            input_method="typed",
-            started_at=now,
-            ended_at=now
+            input_method=input_method,
+            started_at=server_start_time,
+            ended_at=server_end_time,
+            words_per_minute=wpm,
+            filler_count=0,
+            long_pause_count=pause_count
         )
         db.session.add(answer)
 
         # Check if this was the last question in the session
         if answered_count + 1 >= total_questions:
-            interview_session.ended_at = now
+            interview_session.ended_at = server_end_time
             db.session.commit()
             flash("Interview complete! Here is your session summary.", "success")
             return redirect(url_for("interview.report_view", session_id=session_id))
